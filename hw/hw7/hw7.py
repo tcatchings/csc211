@@ -9,6 +9,6 @@ def index():
     return '<h1>CSC211 HW 7: Flask Assigment</h1>'
 
 @app.route('/list')
-@app.route('/list/<integer>')
-def list(integer):
-    return render_template('list.html', integer=integer)
+@app.route('/list/<int>')
+def list(int=None):
+    return render_template('list.html', int=int)
