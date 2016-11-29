@@ -1,6 +1,6 @@
 import os
 from flask_login import LoginManager
-from flask_openid import OpenIdk
+from flask_openid import OpenId
 from config import basedir
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
